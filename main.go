@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/deeper-x/httua/lib/httpmanager"
 )
 
 func main() {
-	fmt.Println("todo")	
+	httpmanager.Run()	
 }
